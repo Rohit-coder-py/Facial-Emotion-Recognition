@@ -1,20 +1,10 @@
-# Core API
+# Combined dependencies for platforms that use the repository-root file.
+# PyTorch is intentionally excluded; Render installs the CPU-only wheels
+# separately through render.yaml.
 fastapi
 uvicorn[standard]
 python-multipart
-
-# Deep Learning
-torch
-torchvision
-
-# Image Processing
 Pillow
-
-# Frontend
+numpy
 streamlit
 requests
-
-# Data handling / visualization (if used by your app or notebooks)
-numpy
-pandas
-matplotlib
