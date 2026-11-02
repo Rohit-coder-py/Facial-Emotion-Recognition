@@ -19,7 +19,7 @@
   <circle cx="290" cy="62" r="9" fill="none" stroke="#4ade80" stroke-width="3">
     <animate attributeName="r" values="9;24" dur="1.6s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.9;0" dur="1.6s" repeatCount="indefinite"/></circle>
-  <text x="500" y="76" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="38" font-weight="900" fill="#ecfdf5">🚀 THIS APP IS LIVE!</text>
+  <text x="500" y="76" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="38" font-weight="900" fill="#ecfdf5"> THIS APP IS LIVE!</text>
   <text x="500" y="110" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="18" font-weight="600" fill="#bbf7d0">Try out the Facial Emotion Recognition App</text>
   <!-- button -->
   <rect x="300" y="128" width="400" height="56" rx="28" fill="url(#btn)" stroke="#bbf7d0" stroke-width="2">
