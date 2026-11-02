@@ -13,7 +13,7 @@ from PIL import Image
 
 APP_FOLDER = os.path.dirname(os.path.abspath(__file__))
 
-API_URL = os.getenv("API_URL", "http://127.0.0.1:8000/")
+API_URL = os.getenv("API_URL", "https://facial-emotion-recogination-api.onrender.com/")
 
 LOGO_PATH = os.path.join(APP_FOLDER, "logo.png")
 SAMPLE_PATH = os.path.join(APP_FOLDER, "sample.jpg")
