@@ -1,0 +1,20 @@
+# Core API
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Deep Learning
+torch
+torchvision
+
+# Image Processing
+Pillow
+
+# Frontend
+streamlit
+requests
+
+# Data handling / visualization (if used by your app or notebooks)
+numpy
+pandas
+matplotlib
