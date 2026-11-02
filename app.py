@@ -1,17 +1,3 @@
-"""
-Facial Emotion Recognition - Streamlit App (Neumorphism, Light Theme)
-
-Run with:  streamlit run app.py
-
-Pages:
-    1. Home     -> short intro
-    2. Predict  -> upload a face photo, get the emotion
-    3. About    -> full explanation of the project
-
-How to run (2 terminals):
-    1) uvicorn fastapi_app:app --port 8000     <- the model server
-    2) streamlit run app.py                    <- this app
-"""
 
 import io
 import os
@@ -29,7 +15,7 @@ from PIL import Image
 APP_FOLDER = os.path.dirname(os.path.abspath(__file__))
 
 # Address of the FastAPI server (change it here, or set the API_URL variable)
-API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
+API_URL = os.getenv("API_URL", "https://facial-emotion-api-aucl.onrender.com/")
 
 LOGO_PATH = os.path.join(APP_FOLDER, "logo.png")
 SAMPLE_PATH = os.path.join(APP_FOLDER, "sample.jpg")
