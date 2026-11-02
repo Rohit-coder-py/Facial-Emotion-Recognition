@@ -9,9 +9,11 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Accuracy](https://img.shields.io/badge/Test%20Accuracy-67.07%25-22c55e?style=for-the-badge)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20App-16a34a?style=for-the-badge&logo=streamlit&logoColor=white)](https://facial-emotion-recognition-fastapi.streamlit.app/)
 
 **An end-to-end deep learning project that reads a face photo and predicts the emotion, served through a FastAPI model server and a Streamlit web app.**
 
+[Live Demo](https://facial-emotion-recognition-fastapi.streamlit.app/) •
 [Overview](#-overview) •
 [Architecture](#-architecture) •
 [Dataset](#-dataset) •
@@ -34,24 +36,10 @@ This project classifies a face image into one of **7 emotions**. It covers the w
 
 
 
-<div style="background:linear-gradient(135deg,#DCFCE7,#BBF7D0,#D1FAE5); padding:22px; border:3px solid #16A34A; border-left:10px solid #15803D; border-radius:14px; box-shadow:0 4px 14px rgba(22,163,74,0.2); text-align:center;">
-
-<h1 style="color:#166534; font-size:28px; font-weight:900; margin:0;">
-🚀 THIS APP IS LIVE!
-</h1>
-
-<p style="color:#14532D; font-size:16px; font-weight:700; margin:12px 0;">
-Try out the Facial Emotion Recognition App!
-</p>
-
-<a href="https://facial-emotion-recognition-fastapi.streamlit.app/" target="_blank" style="display:inline-block; background:#15803D; color:white; padding:12px 24px; border:2px solid #166534; border-radius:9px; font-size:16px; font-weight:800; text-decoration:none;">
-🔗 CLICK HERE TO OPEN LIVE APP
-</a>
-
-<p style="color:#166534; font-size:12px; margin:12px 0 0;">
-Facial Emotion Recognition · Live Deployment
-</p>
-
+<div align="center">
+  <a href="https://facial-emotion-recognition-fastapi.streamlit.app/">
+    <img src="assets/live_app.svg" alt="This app is live - click to open the Facial Emotion Recognition app" width="100%">
+  </a>
 </div>
 
 ### ✨ Highlights
